@@ -1,0 +1,22 @@
+{
+  "name": "my_portfolio",
+  "version": "1.0.0",
+  "description": "My first portfolio",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GMGOG/portfolio.git"
+  },
+  "author": "Geetansh Monga",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GMGOG/portfolio/issues"
+  },
+  "homepage": "https://github.com/GMGOG/portfolio#readme",
+  "dependencies": {
+    "node-sass": "^4.13.1"
+  }
+}
